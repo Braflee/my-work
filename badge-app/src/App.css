@@ -1,0 +1,30 @@
+.theForm {
+    display: flex;
+}
+
+.inputs {
+    margin: 5px;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+    border-right: 1px solid black;
+}
+
+form {
+    width: 400px;
+}
+
+input {
+    width: 175px;
+}
+
+button {
+    background-color: black;
+    color: blanchedalmond;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+}
